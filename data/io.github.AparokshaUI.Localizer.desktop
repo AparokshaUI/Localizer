@@ -2,10 +2,10 @@
 Version=1.0
 Type=Application
 
-Name=Adwaita Template
+Name=Localizer
 Comment=A template for creating GNOME apps with Swift
 Categories=Development;GNOME;
 
-Icon=io.github.AparokshaUI.AdwaitaTemplate
-Exec=AdwaitaTemplate
+Icon=io.github.AparokshaUI.Localizer
+Exec=Localizer
 Terminal=false

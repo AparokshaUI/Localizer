@@ -1,0 +1,116 @@
+default: en
+
+about:
+    de: "Info zu Localizer"
+    en: "About Localizer"
+
+add:
+    de: "Hinzufügen"
+    en: "Add"
+
+addArgument:
+    de: "Argument hinzufügen"
+    en: "Add Argument"
+
+addLanguage:
+    de: "Sprache hinzufügen"
+    en: "Add Language"
+
+addPhrase:
+    de: "Ausdruck hinzufügen"
+    en: "Add Phrase"
+
+argument:
+    de: "Argument"
+    en: "Argument"
+
+arguments:
+    de: "Argumente"
+    en: "Arguments"
+
+argumentsDescription:
+    de: "Zusätzliche Informationen den übersetzten Strings übergeben"
+    en: "Pass additional information to the translated strings"
+
+cancel:
+    de: "Abbrechen"
+    en: "Cancel"
+
+complete(percentage):
+    de: "(percentage)% fertig"
+    de(percentage == "10"): ""
+    de(percentage == "5"): ""
+    en: "(percentage)% complete"
+
+conditionalTranslations(phrase):
+    de: "Konditionale Übersetzungen für \\\"(phrase)\\\""
+    de(phrase == ""): ""
+    en: "Conditional Translations for \\\"(phrase)\\\""
+
+conditions:
+    de: "Bedingungen"
+    en: "Conditions"
+
+defaultLanguage:
+    de: "Standardsprache"
+    en: "Default Language"
+
+key:
+    de: "Schlüssel"
+    en: "Key"
+
+languages(count):
+    de: "Sprachen"
+    de(count == "1"): "Sprache"
+    en: "Languages"
+    en(count == "1"): "Language"
+
+localizeApp:
+    de: "Übersetze eine App"
+    en: "Localize an App"
+
+localizeLanguage(language):
+    de: "Übersetze auf \\\"(language)\\\""
+    en: "Localize \\\"(language)\\\""
+
+localizeProject:
+    de: "Übersetze das Projekt"
+    en: "Localize Project"
+
+mainMenu:
+    de: "Hauptmenü"
+    en: "Main Menu"
+
+noTranslation(defaultLanguage):
+    de: "Keine Übersetzung in der Standardsprache \\\"(defaultLanguage)\\\" verfügbar"
+    en: "No translation in default language \\\"(defaultLanguage)\\\" available"
+
+openFile:
+    de: "Datei öffnen"
+    en: "Open File"
+
+openFileDescription:
+    de: "Öffne deine <b>Localized.yml<b>-Datei"
+    en: "Open your <b>Localized.yml</b> file"
+
+overview:
+    de: "Übersicht"
+    en: "Overview"
+
+phrases(count):
+    de: "Ausdrücke"
+    de(count == "1"): "Ausdruck"
+    en: "Phrases"
+    en(count == "1"): "Phrase"
+
+removeArgument:
+    de: "Argument entfernen"
+    en: "Remove Argument"
+
+translation:
+    de: "Übersetzung"
+    en: "Translation"
+
+translationInDefaultLanguage:
+    de: "Übersetzung in die Standardsprache"
+    en: "Translation in Default Language"

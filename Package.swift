@@ -1,20 +1,38 @@
 // swift-tools-version: 5.8
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+//
+//  Package.swift
+//  Localizer
+//
 
 import PackageDescription
 
 let package = Package(
-    name: "Adwaita Template",
+    name: "Localizer",
     dependencies: [
-        .package(url: "https://github.com/AparokshaUI/Adwaita", from: "0.2.0")
+        .package(url: "https://github.com/AparokshaUI/Adwaita", from: "0.2.5"),
+        .package(url: "https://github.com/AparokshaUI/Localized", from: "0.2.2"),
+        .package(url: "https://github.com/jpsim/Yams", from: "5.0.6")
     ],
     targets: [
         .executableTarget(
-            name: "AdwaitaTemplate",
+            name: "Localizer",
             dependencies: [
+                "Model",
                 .product(name: "Adwaita", package: "Adwaita")
+            ]
+        ),
+        .target(
+            name: "Model",
+            dependencies: [
+                .product(name: "Localized", package: "Localized"),
+                .product(name: "Yams", package: "Yams")
             ],
-            path: "Sources"
+            resources: [
+                .process("Localized.yml")
+            ],
+            plugins: [
+                .plugin(name: "GenerateLocalized", package: "Localized")
+            ]
         )
     ]
 )
