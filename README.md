@@ -29,5 +29,13 @@ Once you're ready to commit, use again git and submit to the repository.
 ## Thanks
 
 ### Dependencies
+- [Yams](https://github.com/jpsim/Yams) licensed under the [MIT license](https://github.com/jpsim/Yams/blob/main/LICENSE)
 - [Adwaita](https://github.com/AparokshaUI/Adwaita) licensed under the [MIT license](https://github.com/AparokshaUI/Adwaita/blob/main/LICENSE.md)
 - [Localized](https://github.com/AparokshaUI/Localized) licensed under the [MIT license](https://github.com/AparokshaUI/Localized/blob/master/LICENSE.md)
+
+### Other Thanks
+- The [contributors](Contributors.md)
+- [SwiftLint](https://github.com/realm/SwiftLint) for checking whether code style conventions are violated
+- The programming language [Swift](https://github.com/apple/swift)
+- [Libadwaita](https://gnome.pages.gitlab.gnome.org/libadwaita/doc/1.4/) and [GTK](https://docs.gtk.org/gtk4/) for the UI widgets
+- [GNOME Builder](https://apps.gnome.org/Builder/) and many other apps
